@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-api",
+  "version": "1.0.0",
+  "description": "API para el portfolio fullstack3r",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pauabell/portfolio-api.git"
+  },
+  "author": "Pau Abello",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pauabell/portfolio-api/issues"
+  },
+  "homepage": "https://github.com/pauabell/portfolio-api#readme"
+}
