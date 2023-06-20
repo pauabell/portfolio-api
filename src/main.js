@@ -1,13 +1,14 @@
 import express from "express";
 import projectsRouter from "./routes/projects.routes.js";
+
 const app = express();
 
-
-//añadir middleware express.json
+// añade middleware express.json
 app.use(express.json());
-app.use("/archivos", express.static("public"));
-//añade la ruta de  projects.js
-app.use("/projects",projectsRouter)
 
+// añade las rutas de projects.js
+app.use("/", express.static("web"));
+app.use("/projects", projectsRouter);
 
-app.listen(3000, () => console.log("Servidor listo en http://localhost:3000"))
+// Empezar a escuchar en el puerto 3000
+app.listen(3000, () => console.log("Servidor listo en http://localhost:3000"));
