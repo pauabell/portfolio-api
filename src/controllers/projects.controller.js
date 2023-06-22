@@ -1,7 +1,4 @@
-import repository from = "/src/repositories/projects.repository"
-
-
-
+import repository from  "../repositories/projects.repository.js"
 
 let projects = [
     { id: 2, name: "Mi proyecto potato 2", img: "/assets/images/shop.svg" }, //0
